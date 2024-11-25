@@ -20,6 +20,7 @@ class User(Base):
     name = Column(String, nullable=False)
     email = Column(String, unique=True, nullable=False)
     age = Column(Integer)  # age-Spalte hinzufügen, falls noch nicht vorhanden
+    
 
 # Alembic-Konfiguration initialisieren
 alembic_cfg = Config("alembic.ini")
