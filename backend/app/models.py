@@ -121,6 +121,3 @@ class Issue(SQLModel, table=True):
 # export PYTHONPATH=$PWD
 # alembic upgrade head, 
 # alembic revision --autogenerate -m "Add mit neue tabelle6", 
-# 
-#
-#
